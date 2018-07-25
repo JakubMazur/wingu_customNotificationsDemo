@@ -1,0 +1,16 @@
+PODS:
+  - wingu-ios-sdk-essentials (0.1.0)
+
+DEPENDENCIES:
+  - wingu-ios-sdk-essentials (from `../`)
+
+EXTERNAL SOURCES:
+  wingu-ios-sdk-essentials:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  wingu-ios-sdk-essentials: 86a2e8646b8f0ab5d549e4ae326565df2ba98e2c
+
+PODFILE CHECKSUM: 17870a18e88828660da7737fcbeeeddb856232da
+
+COCOAPODS: 1.5.0.beta.1

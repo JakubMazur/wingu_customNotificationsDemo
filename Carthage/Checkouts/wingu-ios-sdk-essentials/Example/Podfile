@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'wingu-ios-sdk-essentials_Example' do
+  pod 'wingu-ios-sdk-essentials', :path => '../'
+
+  target 'wingu-ios-sdk-essentials_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

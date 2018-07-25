@@ -1,0 +1,6 @@
+framework module wingu_ios_sdk_essentials {
+  umbrella header "wingu-ios-sdk-essentials-umbrella.h"
+
+  export *
+  module * { export * }
+}

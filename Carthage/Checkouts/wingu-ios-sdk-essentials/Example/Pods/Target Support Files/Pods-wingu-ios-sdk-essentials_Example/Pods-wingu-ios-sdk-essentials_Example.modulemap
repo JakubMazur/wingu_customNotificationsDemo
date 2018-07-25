@@ -1,0 +1,6 @@
+framework module Pods_wingu_ios_sdk_essentials_Example {
+  umbrella header "Pods-wingu-ios-sdk-essentials_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

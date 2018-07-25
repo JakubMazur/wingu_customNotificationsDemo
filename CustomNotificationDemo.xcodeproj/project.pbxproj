@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAF53D82108912F00E7B82B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF53D72108912F00E7B82B /* AppDelegate.swift */; };
+		DDAF53DA2108912F00E7B82B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF53D92108912F00E7B82B /* ViewController.swift */; };
+		DDAF53DD2108912F00E7B82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAF53DB2108912F00E7B82B /* Main.storyboard */; };
+		DDAF53DF2108913100E7B82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAF53DE2108913100E7B82B /* Assets.xcassets */; };
+		DDAF53E22108913100E7B82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDAF53E02108913100E7B82B /* LaunchScreen.storyboard */; };
+		DDAF53F0210892A400E7B82B /* winguSDKEssential.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF53EF210892A400E7B82B /* winguSDKEssential.framework */; };
+		DDAF53F1210892A400E7B82B /* winguSDKEssential.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF53EF210892A400E7B82B /* winguSDKEssential.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDAF53EE2108925D00E7B82B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DDAF53F1210892A400E7B82B /* winguSDKEssential.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDAF53D42108912F00E7B82B /* CustomNotificationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNotificationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAF53D72108912F00E7B82B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDAF53D92108912F00E7B82B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDAF53DC2108912F00E7B82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDAF53DE2108913100E7B82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDAF53E12108913100E7B82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDAF53E32108913100E7B82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAF53EF210892A400E7B82B /* winguSDKEssential.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = winguSDKEssential.framework; path = "Carthage/Checkouts/wingu-ios-sdk-essentials/winguSDKEssential.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAF53D12108912F00E7B82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF53F0210892A400E7B82B /* winguSDKEssential.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAF53CB2108912F00E7B82B = {
+			isa = PBXGroup;
+			children = (
+				DDAF53EF210892A400E7B82B /* winguSDKEssential.framework */,
+				DDAF53D62108912F00E7B82B /* CustomNotificationDemo */,
+				DDAF53D52108912F00E7B82B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAF53D52108912F00E7B82B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF53D42108912F00E7B82B /* CustomNotificationDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAF53D62108912F00E7B82B /* CustomNotificationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF53D72108912F00E7B82B /* AppDelegate.swift */,
+				DDAF53D92108912F00E7B82B /* ViewController.swift */,
+				DDAF53DB2108912F00E7B82B /* Main.storyboard */,
+				DDAF53DE2108913100E7B82B /* Assets.xcassets */,
+				DDAF53E02108913100E7B82B /* LaunchScreen.storyboard */,
+				DDAF53E32108913100E7B82B /* Info.plist */,
+			);
+			path = CustomNotificationDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAF53D32108912F00E7B82B /* CustomNotificationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAF53E62108913100E7B82B /* Build configuration list for PBXNativeTarget "CustomNotificationDemo" */;
+			buildPhases = (
+				DDAF53D02108912F00E7B82B /* Sources */,
+				DDAF53D12108912F00E7B82B /* Frameworks */,
+				DDAF53D22108912F00E7B82B /* Resources */,
+				DDAF53EE2108925D00E7B82B /* Embed Frameworks */,
+				DDAF53EA2108921000E7B82B /* Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNotificationDemo;
+			productName = CustomNotificationDemo;
+			productReference = DDAF53D42108912F00E7B82B /* CustomNotificationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAF53CC2108912F00E7B82B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "wingu GmbH";
+				TargetAttributes = {
+					DDAF53D32108912F00E7B82B = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DDAF53CF2108912F00E7B82B /* Build configuration list for PBXProject "CustomNotificationDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDAF53CB2108912F00E7B82B;
+			productRefGroup = DDAF53D52108912F00E7B82B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAF53D32108912F00E7B82B /* CustomNotificationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAF53D22108912F00E7B82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF53E22108913100E7B82B /* LaunchScreen.storyboard in Resources */,
+				DDAF53DF2108913100E7B82B /* Assets.xcassets in Resources */,
+				DDAF53DD2108912F00E7B82B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DDAF53EA2108921000E7B82B /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Checkouts/wingu-ios-sdk-essentials/winguSDKEssential.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAF53D02108912F00E7B82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF53DA2108912F00E7B82B /* ViewController.swift in Sources */,
+				DDAF53D82108912F00E7B82B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDAF53DB2108912F00E7B82B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAF53DC2108912F00E7B82B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDAF53E02108913100E7B82B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDAF53E12108913100E7B82B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDAF53E42108913100E7B82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDAF53E52108913100E7B82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAF53E72108913100E7B82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/wingu-ios-sdk-content",
+					"$(PROJECT_DIR)/Carthage/Checkouts/wingu-ios-sdk-essentials",
+				);
+				INFOPLIST_FILE = CustomNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.CustomNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDAF53E82108913100E7B82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/wingu-ios-sdk-content",
+					"$(PROJECT_DIR)/Carthage/Checkouts/wingu-ios-sdk-essentials",
+				);
+				INFOPLIST_FILE = CustomNotificationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.CustomNotificationDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAF53CF2108912F00E7B82B /* Build configuration list for PBXProject "CustomNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAF53E42108913100E7B82B /* Debug */,
+				DDAF53E52108913100E7B82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAF53E62108913100E7B82B /* Build configuration list for PBXNativeTarget "CustomNotificationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAF53E72108913100E7B82B /* Debug */,
+				DDAF53E82108913100E7B82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAF53CC2108912F00E7B82B /* Project object */;
+}
