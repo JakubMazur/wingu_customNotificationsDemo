@@ -3,6 +3,7 @@
 > **Note:** Changes mark as **Beta** can change rapidly without backwards compatimbility.
 
 #### 0.4.x Releases
+- [0.4.1](#0.4.2)
 - [0.4.1](#0.4.1)
 - [0.4.0](#0.4.0)
 
@@ -13,6 +14,17 @@
 - [0.3.0](#0.3.0)
 
 --
+
+## [0.4.2](https://github.com/wingu-GmbH/wingu-ios-sdk-essentials/releases/tag/0.4.2)
+
+#### Added
+- `Card` conform fully to `Codable`.
+- Encoded `Content` object now contain also informations about `Pack`
+- Allow `Channel` to be encoded and decoded [See documentation](https://wingu-gmbh.github.io/wingu-ios-sdk-essentials/Classes/Channel.html)
+
+#### Fixed
+- `Channel` without content now return correctly in delegate methods.
+- Notification payload will again contain information about channel that trigger notification in `userInfo` under key `channel`
 
 ## [0.4.1](https://github.com/wingu-GmbH/wingu-ios-sdk-essentials/releases/tag/0.4.1)
 

@@ -349,12 +349,12 @@ SWIFT_CLASS("_TtC17winguSDKEssential6Beacon")
 
 
 
-
-
 @interface Beacon (SWIFT_EXTENSION(winguSDKEssential))
 /// :nodoc:
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 @end
+
+
 
 
 
@@ -430,8 +430,11 @@ SWIFT_CLASS("_TtC17winguSDKEssential12CMSComponent")
 /// Defines position of components inside <code>Deck</code>.
 SWIFT_CLASS("_TtC17winguSDKEssential4Card")
 @interface Card : NSObject
+/// :nodoc:
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 
@@ -717,10 +720,13 @@ SWIFT_CLASS("_TtC17winguSDKEssential20NotificationsManager")
 
 @class UNUserNotificationCenter;
 @class UNNotification;
+@class UNNotificationResponse;
 
 @interface NotificationsManager (SWIFT_EXTENSION(winguSDKEssential)) <UNUserNotificationCenterDelegate>
 /// :nodoc:
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+/// :nodoc:
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 @end
 
 
